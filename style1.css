@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  background-color: #333333;
+  width: 100%;
+  height: 70px;
+  display: inline-block;
+  /* background-color: blueviolet; */
+  position: fixed;
+  padding-top: 20px;
+  z-index: 1;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  position: relative;
+  left: 20px;
+}
+
+.nom {
+  /* background-color: deeppink; */
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.boutonsnav {
+  display: inline-block;
+  position: relative;
+  left: 1000px;
+}
+
+.accueil {
+  /* background-color: blue; */
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: lighter;
+  background-color: #505050;
+}
+
+.findus {
+  /* background-color: red; */
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: lighter;
+}
+
+.contact {
+  /* background-color: green; */
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: lighter;
+}
+
+body {
+  /* background-color: black; */
+  height: 853px;
+  width: 100%;
+  background-image: url(img/bar_opacity.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.start {
+  height: 853px;
+}
+
+h1 {
+  display: inline-block;
+  position: relative;
+  top: 200px;
+  margin-left: 680px;
+  color: #03503c;
+  font-size: 60px;
+}
+
+.trait {
+  background-color: black;
+  position: relative;
+  top: 250px;
+  left: 910px;
+  height: 10px;
+  width: 120px;
+}
+
+.intro {
+  color: #03503c;
+  position: relative;
+  top: 290px;
+  width: 35%;
+  margin-left: 650px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.bouton {
+  background-color: #03503c;
+  display: inline-block;
+  position: relative;
+  width: 150px;
+  height: 60px;
+  text-align: center;
+  border-radius: 40px;
+  top: 320px;
+  margin-left: 870px;
+  /* padding-top: 25px; */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.discover {
+  position: relative;
+  top: 16px;
+}
+
+.bouton:hover {
+  background-color: black;
+}
+
+.middle {
+  margin-top: 350px;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 200px;
+}
+
+.music {
+  /* background-color: blue; */
+  display: inline-block;
+  position: relative;
+  /* left: 450px; */
+  right: 200px;
+}
+
+.clock {
+  /* background-color: green; */
+  display: inline-block;
+  position: relative;
+  left: 200px;
+}
+
+i {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+.text {
+  margin-top: 10px;
+}
+
+.person {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/person.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.end {
+  height: 853px;
+}
+
+h3 {
+  display: inline-block;
+  position: relative;
+  top: 200px;
+  margin-left: 770px;
+  /* color: #03503c; */
+  font-size: 34px;
+}
+
+.text2 {
+  /* color: #03503c; */
+  position: relative;
+  top: 240px;
+  width: 60%;
+  margin-left: 370px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.bouton2 {
+  background-color: black;
+  display: inline-block;
+  position: relative;
+  width: 150px;
+  height: 60px;
+  text-align: center;
+  border-radius: 40px;
+  top: 270px;
+  margin-left: 850px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.booknow {
+  position: relative;
+  top: 17px;
+}
+
+.bouton2:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+footer {
+  padding: 30px;
+  background-color: #333333;
+  color: #fff;
+  text-align: center;
+}
